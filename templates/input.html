@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  <form action = "{{url_for('predict')}}" method = "post">
+         <table>
+        <tr><td>sepallength</td>
+        <td><input type ="text" name ="sepallength"></td></tr>
+        <tr><td>sepalwidth</td>
+        <td><input type ="text" name ="sepalwidth"></td></tr>
+         <tr><td>petallength</td>
+        <td><input type ="text" name ="petallength"></td></tr>
+        <tr><td>petalwidth</td>
+        <td><input type ="text" name ="petalwidth"></td></tr>
+        <tr><td><input type = "submit"></td></tr>
+    </table>
+      </form>
+  </body>
+</html>
